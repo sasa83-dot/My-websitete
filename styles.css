@@ -155,7 +155,7 @@ flex-direction: column;
 width: 400px; 
 margin-top: 20px; 
 } 
-/* ВОССТАНОВЛЕННЫЕ СТИЛИ ДЛЯ ЗАГОЛОВКА */
+/* ШРИФТ ДЛЯ ЗАГОЛОВКОВ */
 .form-title{ 
     width: 400px; 
     text-align: center; 
@@ -163,7 +163,7 @@ margin-top: 20px;
     margin-bottom: 10px; 
     padding: 0px;
     color: #fff; 
-    font-size: 20px; 
+    font-size: 24px; 
     font-weight: bold;
 }
 /* СБРОС ВЕРХНЕГО ОТСТУПА ДЛЯ ПЕРВОГО ЗАГОЛОВКА */
@@ -178,8 +178,8 @@ margin-bottom: 0;
 padding: 0px 10px; 
 background-color: #2f4f4f; 
 color: #fff; 
-/* ИСПРАВЛЕНИЕ: ТОЛСТАЯ РАМКА */
-border: 3px solid #fff; 
+/* ФИНАЛЬНОЕ ИСПРАВЛЕНИЕ: ТОНКАЯ РАМКА 1px */
+border: 1px solid #fff; 
 border-radius: 8px; 
 } 
 .footer-button{ 
