@@ -1,5 +1,5 @@
 body{ 
-font-family: 'Roboto', sans-serif; 
+font-family: ’Roboto’, sans-serif; 
 margin: 0; 
 padding: 16px; 
 background-color: #eaeaea; 
@@ -21,7 +21,7 @@ width: 160px;
 margin-top: 40px; 
 margin-bottom: 20px; 
 color: #fff; 
-font-family: 'Lora', sans-serif; 
+font-family: ’Lora’, sans-serif; 
 font-size: 50px; 
 font-weight: 700; 
 } 
@@ -74,10 +74,18 @@ font-weight: bold;
 text-transform: capitalize; 
 } 
 .section-section-text{ 
-margin-top: 30px; 
-margin-bottom: 30px; 
+margin: 30px; 
 color: #666; 
 font-size: 18px; 
+} 
+.section-section-name{ 
+color: #556b2f; 
+text-transform: capitalize; 
+} 
+.section-section-name2{ 
+color: #8fbc8f; 
+font-weight: bold; 
+text-transform: uppercase; 
 } 
 .third-section{ 
 padding-top: 100px; 
@@ -152,33 +160,23 @@ display: flex;
 justify-content: center; 
 align-items: center; 
 flex-direction: column; 
-width: 400px; 
-margin-top: 20px; 
 } 
-/* ШРИФТ ДЛЯ ЗАГОЛОВКОВ */
 .form-title{ 
-    width: 400px; 
-    text-align: center; 
-    margin-top: 25px; 
-    margin-bottom: 10px; 
-    padding: 0px;
-    color: #fff; 
-    font-size: 24px; 
-    font-weight: bold;
-}
-/* СБРОС ВЕРХНЕГО ОТСТУПА ДЛЯ ПЕРВОГО ЗАГОЛОВКА */
-.footer-form > .form-title:first-child {
-    margin-top: 0;
-}
+margin-top: 20px; 
+margin-bottom: 10px; 
+text-align: center; 
+color: #fff; 
+font-weight: bold; 
+text-transform: uppercase; 
+} 
 .form-input{ 
-width: 100%; 
+width: 400px; 
 height: 40px; 
-margin-top: 0; 
-margin-bottom: 0; 
+margin-top: 20px; 
+margin-bottom: 10px; 
 padding: 0px 10px; 
 background-color: #2f4f4f; 
 color: #fff; 
-/* ФИНАЛЬНОЕ ИСПРАВЛЕНИЕ: ТОНКАЯ РАМКА 1px */
 border: 1px solid #fff; 
 border-radius: 8px; 
 } 
@@ -191,5 +189,4 @@ padding: 10px 20px;
 cursor: pointer; 
 border-style: none; 
 border-radius: 25px; 
-width: 100%; 
 }
