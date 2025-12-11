@@ -153,10 +153,16 @@ display: flex;
 justify-content: center; 
 align-items: center; 
 flex-direction: column; 
-width: 400px; 
+width: 400px; /* ЭТО УСТАНАВЛИВАЕТ ШИРИНУ ФОРМЫ */
 } 
+/* ЭТОТ КЛАСС НУЖНО УДАЛИТЬ ИЗ CSS, ЕСЛИ ОН БЫЛ У ВАС, ЧТОБЫ УБРАТЬ ЛИШНИЙ ТЕКСТ */
+/* .form-title{ 
+    color: #fff;
+    font-weight: bold;
+    margin: 10px 0 5px 0;
+} */
 .form-input{ 
-width: 100%; 
+width: 100%; /* Поля ввода теперь занимают 100% от 400px */
 height: 40px; 
 margin-top: 20px; 
 margin-bottom: 10px; 
@@ -175,5 +181,5 @@ padding: 10px 20px;
 cursor: pointer; 
 border-style: none; 
 border-radius: 25px; 
-width: 100%; 
+width: 100%; /* Кнопка занимает 100% от 400px */
 }
