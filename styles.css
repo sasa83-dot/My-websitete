@@ -147,6 +147,7 @@ font-size: 20px;
 .footer-text-main{ 
 color: #fff; 
 } 
+/* СТИЛИ ДЛЯ ВЫРАВНИВАНИЯ ФУТЕРА */
 .footer-form{ 
 display: flex; 
 justify-content: center; 
