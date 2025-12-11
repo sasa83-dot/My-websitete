@@ -153,29 +153,35 @@ justify-content: center;
 align-items: center; 
 flex-direction: column; 
 width: 400px; 
+margin-top: 20px; 
 } 
-/* .form-title стили удалены */
+/* ВОССТАНОВЛЕННЫЕ СТИЛИ ДЛЯ ЗАГОЛОВКА */
+.form-title{ 
+    width: 400px; 
+    text-align: center; 
+    margin-top: 25px; 
+    margin-bottom: 10px; 
+    padding: 0px;
+    color: #fff; 
+    font-size: 20px; 
+    font-weight: bold;
+}
+/* СБРОС ВЕРХНЕГО ОТСТУПА ДЛЯ ПЕРВОГО ЗАГОЛОВКА */
+.footer-form > .form-title:first-child {
+    margin-top: 0;
+}
 .form-input{ 
 width: 100%; 
 height: 40px; 
-/* margin-top: 20px нужен для интервала между полями */
-margin-top: 20px; 
-margin-bottom: 15px; 
+margin-top: 0; 
+margin-bottom: 0; 
 padding: 0px 10px; 
 background-color: #2f4f4f; 
 color: #fff; 
-border: 1px solid #fff; 
+/* ИСПРАВЛЕНИЕ: ТОЛСТАЯ РАМКА */
+border: 3px solid #fff; 
 border-radius: 8px; 
 } 
-/* Стилизация плейсхолдера, чтобы текст был заметен */
-.form-input::placeholder {
-    color: #fff; 
-    font-weight: normal;
-}
-/* Сброс margin-top для первого поля, чтобы не было лишнего отступа сверху */
-.footer-form > input:first-child {
-    margin-top: 0;
-}
 .footer-button{ 
 margin-top: 30px; 
 background-color: #8fbc8f; 
