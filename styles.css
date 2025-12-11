@@ -1,5 +1,5 @@
 body{ 
-font-family: 'Roboto', sans-serif; 
+font-family: ’Roboto’, sans-serif; 
 margin: 0; 
 padding: 16px; 
 background-color: #eaeaea; 
@@ -21,7 +21,7 @@ width: 160px;
 margin-top: 40px; 
 margin-bottom: 20px; 
 color: #fff; 
-font-family: 'Lora', sans-serif; 
+font-family: ’Lora’, sans-serif; 
 font-size: 50px; 
 font-weight: 700; 
 } 
@@ -74,10 +74,18 @@ font-weight: bold;
 text-transform: capitalize; 
 } 
 .section-section-text{ 
-margin-top: 30px; 
-margin-bottom: 30px; 
+margin: 30px; 
 color: #666; 
 font-size: 18px; 
+} 
+.section-section-name{ 
+color: #556b2f; 
+text-transform: capitalize; 
+} 
+.section-section-name2{ 
+color: #8fbc8f; 
+font-weight: bold; 
+text-transform: uppercase; 
 } 
 .third-section{ 
 padding-top: 100px; 
@@ -136,7 +144,6 @@ flex-direction: column;
 .footer-title{ 
 color: #fff; 
 } 
-/* ШИРИНА 600px для .footer-text (1000008017.jpg) */
 .footer-text{ 
 width: 600px; 
 text-align: center; 
@@ -148,29 +155,24 @@ font-size: 20px;
 .footer-text-main{ 
 color: #fff; 
 } 
-/* ФОРМА (ШИРИНА 400px и Flex-Column, 1000008017.jpg) */
 .footer-form{ 
 display: flex; 
 justify-content: center; 
 align-items: center; 
 flex-direction: column; 
-width: 400px; 
 } 
-/* ЗАГОЛОВКИ ПОЛЕЙ (.form-title, 1000008017.jpg) */
 .form-title{ 
-    width: 400px; /* Добавлено, чтобы он занимал всю ширину контейнера формы */
-    text-align: left;
-    margin-top: 20px;
-    margin-bottom: 0px; 
-    padding: 0px;
-    color: #fff; 
-    font-weight: bold;
-}
-/* ПОЛЯ ВВОДА (1000008017.jpg) */
+margin-top: 20px; 
+margin-bottom: 10px; 
+text-align: center; 
+color: #fff; 
+font-weight: bold; 
+text-transform: uppercase; 
+} 
 .form-input{ 
-width: 100%; 
+width: 400px; 
 height: 40px; 
-margin-top: 5px; /* Уменьшено, т.к. margin-top 20px стоит на .form-title */
+margin-top: 20px; 
 margin-bottom: 10px; 
 padding: 0px 10px; 
 background-color: #2f4f4f; 
@@ -178,7 +180,6 @@ color: #fff;
 border: 1px solid #fff; 
 border-radius: 8px; 
 } 
-/* КНОПКА (1000008017.jpg) */
 .footer-button{ 
 margin-top: 30px; 
 background-color: #8fbc8f; 
@@ -188,6 +189,4 @@ padding: 10px 20px;
 cursor: pointer; 
 border-style: none; 
 border-radius: 25px; 
-width: 100%; 
     }
-    
