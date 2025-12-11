@@ -136,6 +136,7 @@ flex-direction: column;
 .footer-title{ 
 color: #fff; 
 } 
+/* ШИРИНА 600px для .footer-text (1000008017.jpg) */
 .footer-text{ 
 width: 600px; 
 text-align: center; 
@@ -147,24 +148,29 @@ font-size: 20px;
 .footer-text-main{ 
 color: #fff; 
 } 
-/* СТИЛИ ДЛЯ ВЫРАВНИВАНИЯ ФУТЕРА */
+/* ФОРМА (ШИРИНА 400px и Flex-Column, 1000008017.jpg) */
 .footer-form{ 
 display: flex; 
 justify-content: center; 
 align-items: center; 
 flex-direction: column; 
-width: 400px; /* ЭТО УСТАНАВЛИВАЕТ ШИРИНУ ФОРМЫ */
+width: 400px; 
 } 
-/* ЭТОТ КЛАСС НУЖНО УДАЛИТЬ ИЗ CSS, ЕСЛИ ОН БЫЛ У ВАС, ЧТОБЫ УБРАТЬ ЛИШНИЙ ТЕКСТ */
-/* .form-title{ 
-    color: #fff;
+/* ЗАГОЛОВКИ ПОЛЕЙ (.form-title, 1000008017.jpg) */
+.form-title{ 
+    width: 400px; /* Добавлено, чтобы он занимал всю ширину контейнера формы */
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 0px; 
+    padding: 0px;
+    color: #fff; 
     font-weight: bold;
-    margin: 10px 0 5px 0;
-} */
+}
+/* ПОЛЯ ВВОДА (1000008017.jpg) */
 .form-input{ 
-width: 100%; /* Поля ввода теперь занимают 100% от 400px */
+width: 100%; 
 height: 40px; 
-margin-top: 20px; 
+margin-top: 5px; /* Уменьшено, т.к. margin-top 20px стоит на .form-title */
 margin-bottom: 10px; 
 padding: 0px 10px; 
 background-color: #2f4f4f; 
@@ -172,6 +178,7 @@ color: #fff;
 border: 1px solid #fff; 
 border-radius: 8px; 
 } 
+/* КНОПКА (1000008017.jpg) */
 .footer-button{ 
 margin-top: 30px; 
 background-color: #8fbc8f; 
@@ -181,5 +188,6 @@ padding: 10px 20px;
 cursor: pointer; 
 border-style: none; 
 border-radius: 25px; 
-width: 100%; /* Кнопка занимает 100% от 400px */
-}
+width: 100%; 
+    }
+    
